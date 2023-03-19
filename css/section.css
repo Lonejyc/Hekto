@@ -1,0 +1,22 @@
+.section {
+    width: 100%;
+    height: 286px;
+    left: 0px;
+    top: 125px;
+    background: #F6F5FF;
+}
+
+.section .wrap div {
+    margin-top: 96px;
+    margin-bottom: 126px;
+}
+
+.section p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    display: inline;
+}
+
+.section h2 {
+    font-size: 36px;
+}

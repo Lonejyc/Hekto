@@ -1,0 +1,101 @@
+.logo img {
+    margin: auto;
+    display: flex;
+    margin-bottom: 51px;
+    margin-top: 124px;
+}
+
+.footer {
+    width: 100%;
+    height: 479px;
+    background-color: #F6F5FF;
+}
+
+.footer .wrap .contact {
+    margin-top: 95px;
+}
+
+.footer .wrap .contact h2 {
+    margin-bottom: 31px;
+}
+
+.footer .wrap div p {
+    margin-bottom: 10px;
+}
+
+.footer .wrap div .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer .wrap div .search input {
+    border: none;
+    border-radius: 3px;
+    width: 377px;
+    height: 44px;
+    font-size: 16px;
+    color: #8A8FB9;
+    font-size: 16px;
+}
+
+.footer .wrap div .search button {
+    width: 135px;
+    height: 39px;
+    margin-left: -138px;
+    font-size: 16px;
+}
+
+.footer .wrap nav .link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+    margin-left: 88px;
+}
+
+.footer .wrap nav .link h4 {
+    margin-bottom: 21px;
+}
+
+.footer .wrap nav .link ul li {
+    margin-top: 21px;
+}
+
+.footer h2 {
+    font-size: 38px;
+}
+
+.footer h4 {
+    font-size: 22px;
+}
+
+.footer ul {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #8A8FB9;
+}
+
+.footer p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #8A8FB9;
+}
+
+.footer-bottom {
+    background-color: #E7E4F8;
+    display: flex;
+}
+
+.wrap2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 17px auto;
+    width: 100%;
+}
+
+.footer-bottom .wrap2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #9DA0AE;
+}

@@ -1,0 +1,82 @@
+.main .wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 123px;
+}
+
+.main .wrap .GInfo {
+    margin-right: 106px;
+}
+
+.main .wrap .GInfo h2 {
+    color: #1D3178;
+    margin-top: 11px;
+    margin-bottom: 64px;
+}
+
+.main .wrap .GInfo p .GItitle {
+    color: #1D3178;
+    font-family: 'Josefin sans';
+    font-size: 17px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.main .wrap .GInfo p .GItext {
+    color: #A1ABCC;
+    font-family: 'Josefin sans';
+    font-size: 16px;
+    margin-bottom: 66px;
+}
+
+.main .wrap form {
+    background-color: #F8F8FD;
+    border-radius: mixed;
+    width: 566px;
+    height: 738px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .wrap form h3{
+    margin-left: 42px;
+    margin-top: 66px;
+    margin-bottom: 114px;
+}
+
+.main .wrap form textarea {
+    resize: none;
+    width: 445px;
+    height: 197px;
+    border-radius: 5px;
+    border: 1px solid #CDCEDC;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 16px;
+    margin: 10px 75px 41px 46px;
+}
+
+.main .wrap form input[type=text] {
+    width: 445px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #CDCEDC;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-right: 75px;
+    margin-left: 46px;
+}
+
+.main .wrap form input[type=submit] {
+    width: 156px;
+    height: 48px;
+    border-radius: 3px;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 16px;
+    color: white;
+    background-color: #FB2E86;
+    border: none;
+    margin-left: 46px;
+    margin-bottom: 62px;
+}
