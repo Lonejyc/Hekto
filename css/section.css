@@ -10,6 +10,9 @@
     margin-top: 96px;
     margin-bottom: 126px;
 }
+.section .wrap div .select a {
+    color: #FB2E86;
+}
 
 .section p {
     font-family: 'Lato', sans-serif;
@@ -17,6 +20,11 @@
     display: inline;
 }
 
+.section p a {
+    color: black;
+}
+
 .section h2 {
     font-size: 36px;
+    color: #101750;
 }

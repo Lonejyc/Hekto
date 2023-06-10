@@ -14,24 +14,25 @@
     margin-bottom: 64px;
 }
 
-.main .wrap .GInfo p .GItitle {
+.main .wrap .GInfo .GItitle {
     color: #1D3178;
     font-family: 'Josefin sans';
     font-size: 17px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
-.main .wrap .GInfo p .GItext {
+.main .wrap .GInfo .GItext {
     color: #A1ABCC;
     font-family: 'Josefin sans';
     font-size: 16px;
     margin-bottom: 66px;
+    font-weight: 400;
 }
 
 .main .wrap form {
     background-color: #F8F8FD;
-    border-radius: mixed;
+    border-radius: 0px;
     width: 566px;
     height: 738px;
     margin: 0 auto;
@@ -40,9 +41,7 @@
 }
 
 .main .wrap form h3{
-    margin-left: 42px;
-    margin-top: 66px;
-    margin-bottom: 114px;
+    margin: 66px 0px 114px 42px;
 }
 
 .main .wrap form textarea {
@@ -53,7 +52,14 @@
     border: 1px solid #CDCEDC;
     font-family: 'Lato', 'sans-serif';
     font-size: 16px;
+    padding-top: 11px;
+    padding-left: 8px;
     margin: 10px 75px 41px 46px;
+    color: #8990B1;
+}
+
+.main .wrap form textarea::placeholder {
+    color: #8990B1;
 }
 
 .main .wrap form input[type=text] {
@@ -63,9 +69,13 @@
     border: 1px solid #CDCEDC;
     font-family: 'Lato', 'sans-serif';
     font-size: 16px;
-    margin-bottom: 35px;
-    margin-right: 75px;
-    margin-left: 46px;
+    padding-left: 8px;
+    margin: 0px 75px 35px 46px;
+    color: #8990B1;
+}
+
+.main .wrap form input[type=text]::placeholder {
+    color: #8990B1;
 }
 
 .main .wrap form input[type=submit] {

@@ -1,0 +1,172 @@
+main .wrap {
+    max-width: 1176px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+main .wrap {
+    margin-top: 130px;
+}
+
+main .wrap .shop .item-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1D3178;
+    margin-bottom: 48px;
+}
+
+main .wrap .shop .item-info #prc {
+    margin-left: 226px;
+}
+
+main .wrap .shop .item-info #qnt {
+    margin-left: 104px;
+}
+
+main .wrap .shop .item-info #tot {
+    margin-left: 122px;
+    margin-right: 11px;
+}
+
+main .wrap .shop-items div {
+    display: flex;
+}
+
+main .wrap .shop-items div .item-left {
+    display: flex;
+}
+
+main .wrap .shop-items div .item-left .item-image {
+    display: flex;
+}
+
+main .wrap .shop-items div .item-left .item-image .img {
+    z-index: -1;
+}
+
+main .wrap .shop-items div .item-left .item-image .svg {
+    z-index: 0;
+    margin-left: -9px;
+    margin-top: -86px;
+}
+
+main .wrap .shop-items div .item-left .txt {
+    display: flex;
+    flex-direction: column;
+}
+
+main .wrap .shop-items div .item-left .txt p {
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: #A1A8C1;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+main .wrap .shop-items div .item-left .txt p span {
+    font-size: 14px;
+}
+
+main .wrap .shop-items div .item-left .txt .black{
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 17px;
+}
+
+main .wrap .shop-items div .item-right {
+    display: flex;
+    margin-left: 79px;
+}
+
+main .wrap .shop-items div .item-right p {
+    margin-top: 34px;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color: #15245E;
+}
+
+main .wrap .shop-items div .item-right .quantity {
+    margin: 36px 140px 0px 122px;
+    height: 15px;
+}
+
+main .wrap .shop-items div .item-right .quantity div {
+    background-color: #E7E7EF;
+}
+
+main .wrap .shop-items div .item-right .quantity div p {
+    color: #BEBFC2;
+    margin: 1px 3px 0px 4px;
+}
+
+main .wrap .shop-items div .item-right .quantity .one {
+    background-color: #F0EFF2;
+}
+
+main .wrap .shop-items div .item-right .quantity .one p {
+    margin: 2px 11px 0px 12px;
+}
+
+hr {
+    border: 1px solid #E1E1E4;
+}
+
+main .wrap .shop-items .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .wrap .shop-items .buttons button {
+    width: 134px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    margin-top: 37px;
+    margin-bottom: 145px;
+    background-color: #FB2E86;
+    color: white;
+}
+
+main .wrap .pay .cartt p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1D3178;
+}
+
+main .wrap .pay .cartt #price {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main .wrap .pay .cartt div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .wrap .pay .cartt .divcartt {
+    background-color: #F4F4FC;
+    padding: 34px 30px 32px 29px;
+    border-radius: 3px;
+}
+
+main .wrap .pay .cartt .divcartt .price2 {
+    margin-top: 30px;
+}
+
+main .wrap .pay .cartt .divcartt .check p{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A91AB;
+}

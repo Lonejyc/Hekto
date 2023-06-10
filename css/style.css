@@ -1,8 +1,15 @@
+h1 {
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #101750;
+}
+
 h2 {
     font-family: 'Josefin sans', sans-serif;
     font-weight: 700;
     font-size: 34px;
-    color: #152970;
+    color: #0D0E43;
 }
 
 h3 {
@@ -16,7 +23,25 @@ h4 {
     font-family: 'Josefin sans', sans-serif;
     font-weight: 600;
     font-size: 22px;
-    color: #152970;
+    color: #000000;
+}
+
+.logo {
+    display: flex;
+    width: 1229px;
+    height: 128px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 36px;
+    margin-bottom: 51px;
+    margin-top: 124px;
+}
+
+.logo .image {
+    display: flex;
+    width: 217px;
+    height: 128px;
+    background-color: #F6F5FF;
 }
 
 .wrap {
@@ -39,7 +64,7 @@ nav li {
     display: flex;
 }
 
-#select {
+.select {
     color: #FB2E86;
 }
 
@@ -48,4 +73,16 @@ button {
     border: none;
     color: white;
     border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
